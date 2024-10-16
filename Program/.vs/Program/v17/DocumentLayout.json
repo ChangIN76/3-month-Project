@@ -1,10 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\vel55\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\SBS\uC544\uCE74\uB370\uBBF8\uAC8C\uC784\uD559\uC6D0\\Program\\",
+  "WorkspaceRootPath": "C:\\Users\\vel55\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\3-month-Project\\Program\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{68AA7AD7-F856-46C6-92F6-D464D92EC584}|Program.vcxproj|C:\\Users\\vel55\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\SBS\uC544\uCE74\uB370\uBBF8\uAC8C\uC784\uD559\uC6D0\\Program\\Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{68AA7AD7-F856-46C6-92F6-D464D92EC584}|Program.vcxproj|C:\\Users\\vel55\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\3-month-Project\\Program\\Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{68AA7AD7-F856-46C6-92F6-D464D92EC584}|Program.vcxproj|solutionrelative:Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20B1C8DF-24AE-4218-8731-36CDF19C75FC}|..\\Class1th (Stream)\\Class1th (Stream).vcxproj|C:\\Users\\vel55\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\3-month-Project\\Class1th (Stream)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,13 +27,26 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cpp",
-              "DocumentMoniker": "C:\\Users\\vel55\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\SBS\uC544\uCE74\uB370\uBBF8\uAC8C\uC784\uD559\uC6D0\\Program\\Program.cpp",
+              "DocumentMoniker": "C:\\Users\\vel55\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\3-month-Project\\Program\\Program.cpp",
               "RelativeDocumentMoniker": "Program.cpp",
-              "ToolTip": "C:\\Users\\vel55\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\SBS\uC544\uCE74\uB370\uBBF8\uAC8C\uC784\uD559\uC6D0\\Program\\Program.cpp",
+              "ToolTip": "C:\\Users\\vel55\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\3-month-Project\\Program\\Program.cpp",
               "RelativeToolTip": "Program.cpp",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAAFoAAAAEAAAA",
+              "ViewState": "AQIAADYAAAAAAAAAAAAqwFkAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-15T11:03:17.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\vel55\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\3-month-Project\\Class1th (Stream)\\Source.cpp",
+              "RelativeDocumentMoniker": "..\\Class1th (Stream)\\Source.cpp",
+              "ToolTip": "C:\\Users\\vel55\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\3-month-Project\\Class1th (Stream)\\Source.cpp",
+              "RelativeToolTip": "..\\Class1th (Stream)\\Source.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-16T11:05:48.625Z",
               "EditorCaption": ""
             }
           ]
