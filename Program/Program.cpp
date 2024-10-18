@@ -2,101 +2,110 @@
 
 using namespace std;
 
-namespace Korea
+class Unit
 {
-	float area;
+private:
+	int health;
+	int* count;
 
-	void Information()
+public:
+	Unit()
 	{
-		cout << "면적 : " << area << endl;
+		count = new int;
+
+		cout << "생성자" << endl;
 	}
-}
 
-namespace Australia
-{
-	float area;
-
-	void Information()
+	Unit(Unit & clone)
 	{
-		cout << "면적 : " << area << endl;
-	}
-}
+		// 얕은 복사는 객체가 메모리에서 해제될 때
+		// 생성자의 실행 순서와 반대로 소멸자가 실행되기
+		// 때문에 복사한 객체가 먼저 해제되므로 원래 있던
+		// 객체가 해제될 때 이미 해제된 메모리에 접근하게 되는 것 입니다. 
 
-using namespace Korea;
-
-class Object
-{
-#pragma region 접근 지정자
-	// 클래스 내부의 포함되어 있는 속성에 접근 범위를
-	// 제한하는 지정자입니다.
-
-	// public : 클래스 내부와 자기가 상속하고 있는 클래스 그리고
-	//			클래스 외부에서 접근을 허용하는 접근 지정자입니다.
-
-	// protected : 클래스 내부와 자기가 상속하고 있는 클래스에서만
-	//			   접근을 허용하는 접근 지정자입니다.
-
-	// private : 클래스 내부에서만 접근을 허용하는 접근 지정자입니다.
+		count = clone.count;
+#pragma region 깊은 복사
+		// 객체를 복사랗 때, 참조 값이 아닌 인스턴스 자체를
+		// 새로 복사하여 서로 다른 메모리를 생성하는 복사입니다.
+		count = new int;
 
 #pragma endregion
 
-public :
-	int x;
 
-	int X()
-	{
-		return x;
+
+		health = clone.health;		
+		
+		cout << "복사 생성자" << endl;
 	}
 
-protected :
-	int y;
-private : 
-	int z;
-};
+	void SetData(int stamina)
+	{
+		health = stamina;
+	}
 
+	void GetData()
+	{
+		cout << "count : " << count << endl;
+		cout << "health : " << health << endl;
+	}
+
+	~Unit()
+	{
+		delete count;
+	}
+	
+};
 
 int main()
 {
-#pragma region 이름 공간
-	// 속성을 구분할 수 있도록 유효 범위를 설정하는 영역입니다.
+#pragma region 복사 생성자
+	// 같은 객체를 복사하여 생성시킬 때 호출되는
+	// 생성자입니다.
 
-	// area = 1000;
-	// Korea::Information();
+	// Unit unit1;
 	// 
-	// Australia::area = 9999;
-	// Australia::Information();
+	// Unit unit2 = unit1;
 
-	// 이름 공간은 같은 이름의 함수나 변수를 또 다른 공간에 선언하여
-	// 중복되지 않도록 선언할 수 있습니다.
-
-#pragma endregion
-
-#pragma region 클래스
-	// 사용자 정의 데이터 유형으로 속성과 함수가 포함되어 있으며
-	// 클래스를 통해 객체를 생성하여 접근하고 사용할 수 있는
-	// 집합체입니다.
-
-	// Object object1;
-	// Object object2;
-	// Object object3;
-	// 
-	// object1.x = 5;
-	// object2.x = 25;
-	// object3.x = 10;
-	// 
-	// cout << "Object의 크기 : " << sizeof(object1) << endl;
-	// cout << "Object1.x : " << object1.x << endl;
-	// cout << "Object2.x : " << object2.x << endl;
-	// cout << "Object3.x : " << object3.x << endl;
-
-	// 클래스의 경우 클래스 내부에 있는 변수는 클래스의
-	// 메모리 영역에 포함되지만, 정적 변수와 함수의 메모리는
-	// 클래스 영역에 포함되지 않습니다.
-
-
+	// 복사 생성자를 정의하지 않고, 객체를 복사하게 되면
+	// 기본 복사 생성자가 호출되기 때문에 얕은 복사로
+	// 객체가 복사됩니다.
 
 #pragma endregion
 
 
-	return 0;
+#pragma region 얕은 복사
+	// 객체를 복사할 때 주소 값을 복사하여 같은
+	// 메모리 공간을 가리키게 하는 복사입니다.
+
+	/*
+	int* ptr1 = new int;
+	
+	int* ptr2 = ptr1;
+	
+	*ptr1 = 99;
+	
+	cout << "ptr1이 가리키는 값 : " << *ptr1 << endl;
+	cout << "ptr2이 가리키는 값 : " << *ptr2 << endl;
+	*/
+
+	// Unit marine1;
+	// 
+	// Unit marine2 = marine1;
+	// 
+	// marine2.SetData(60);
+	// 
+	// marine1.GetData();
+	// marine2.GetData();
+
+	// 얕은 복사의 경우 같은 객체가 서로 같은 메모리
+	// 공간을 참조하고 있기 때문에 하나의 객체로 값을
+	// 변경하게 되면 서로 참조된 객체도 함께 영향을 받습니다.
+
+
+
+
+
+#pragma endregion
+
+
 }
