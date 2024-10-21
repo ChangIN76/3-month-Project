@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{68AA7AD7-F856-46C6-92F6-D464D92EC584}|Program.vcxproj|solutionrelative:Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\crt\\src\\vcruntime\\delete_scalar.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{487AF6AA-2701-416E-A3AC-5A72FC75A85C}|..\\Class5th (Inheritance)\\Class5th (Inheritance).vcxproj|C:\\Users\\vel55\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\3-month-Project\\Class5th (Inheritance)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,14 +26,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "delete_scalar.cpp",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\crt\\src\\vcruntime\\delete_scalar.cpp",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\crt\\src\\vcruntime\\delete_scalar.cpp",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\crt\\src\\vcruntime\\delete_scalar.cpp",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\crt\\src\\vcruntime\\delete_scalar.cpp",
-              "ViewState": "AQIAABIAAAAAAAAAAAAjwCEAAAAAAAAA",
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\vel55\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\3-month-Project\\Class5th (Inheritance)\\Source.cpp",
+              "RelativeDocumentMoniker": "..\\Class5th (Inheritance)\\Source.cpp",
+              "ToolTip": "C:\\Users\\vel55\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\3-month-Project\\Class5th (Inheritance)\\Source.cpp",
+              "RelativeToolTip": "..\\Class5th (Inheritance)\\Source.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAI4AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-18T12:11:44.246Z",
+              "WhenOpened": "2024-10-21T12:32:25.81Z",
               "EditorCaption": ""
             },
             {
@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "Program.cpp",
               "ToolTip": "C:\\Users\\vel55\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\3-month-Project\\Program\\Program.cpp",
               "RelativeToolTip": "Program.cpp",
-              "ViewState": "AQIAAEsAAAAAAAAAAAAAAGEAAAAEAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-15T11:03:17.781Z",
               "EditorCaption": ""
