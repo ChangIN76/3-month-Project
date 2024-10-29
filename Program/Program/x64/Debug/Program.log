@@ -1,2 +1,3 @@
 ﻿  Program.cpp
+C:\Users\vel55\OneDrive\바탕 화면\3-month-Project\Program\Program.cpp(29,1): warning C4172: 지역 변수 또는 임시: vector의 주소를 반환하고 있습니다.
   Program.vcxproj -> C:\Users\vel55\OneDrive\바탕 화면\3-month-Project\Program\x64\Debug\Program.exe
